@@ -1,0 +1,89 @@
+<html>
+<title>
+Mother's Day Card
+</title>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+</script>
+<script type="text/javascript">
+$(function() {
+$('#btn').click(function(){
+$('#roses').show(900);
+$('#title').slideUp(1500)
+$('#text').show(1000);
+$('#flowers').show(1000)
+$('#flowers2').show(1000)
+$('#flowers3').show(1000)
+$('#flowers4').show(1000)
+$('h6').show(600)
+});
+});
+$(function() {
+$('#flowers').click(function(){
+$('#flowers').hide()
+$('#m1').show(700)
+});
+});
+$(function() {
+$('#flowers2').click(function(){
+$('#flowers2').hide()
+$('#m2').show(700)
+});
+});
+$(function() {
+$('#flowers3').click(function(){
+$('#flowers3').hide()
+$('#m3').show(700)
+});
+});
+$(function() {
+$('#flowers4').click(function(){
+$('#flowers4').hide()
+$('#m4').show(700)
+});
+});
+</script>
+</head>
+<style>
+#roses{display:none;}
+#title{color:red;}
+body{background-color:pink;}
+#text{display:none; color:purple;}
+#flowers{display:none;}
+#flowers2{display:none;}
+#flowers3{display:none;}
+#flowers4{display:none;}
+#m1{display:none; color:blue;}
+#m2{display:none; color:blue;}
+#m3{display:none; color:blue;}
+#m4{display:none; color:blue;}
+h6{display:none;}
+</style>
+<body>
+<center>
+<h1 id="title"> Happy Mother's Day! </h1>
+<button id="btn">Click!</button>
+<br>
+<br>
+<img src="Roses.jpg" id="roses">
+</center>
+<center>
+<h3 id="text"> I Love You Amma! You help me and do lots of things for me, and are always there when I need you!</h3>
+</center>
+<center>
+<h6> <i> Please click on the flowers below </i> </h6>
+</center>
+<center>
+<img src="flowers.jpg" id="flowers" width="200" height="200">
+<img src="flowers.jpg" id="flowers2" width=200" height="200">
+<img src="flowers.jpg" id="flowers3" width="200" height="200">
+<img src="flowers.jpg" id="flowers4" width="200" height="200">
+</center>
+<center>
+<h1 id="m1"> Mothers take care of us! </h1>
+<h1 id="m2"> Mothers help us! </h1>
+<h1 id="m3"> Mothers feed us! </h1>
+<h1 id="m4"> Mothers love us unconditionally! </h1>
+</center>
+</body>
+</html>
